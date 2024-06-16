@@ -2,7 +2,7 @@
 
 **Author:** Avielle Lewis
 
-[Deployed site](https://bigeasyevents.netlify.app/)
+[Deployed site](https://big-easy-events-remix.vercel.app/)
 
 Big Easy Events is an all-in-one event planning app designed specifically for New Orleans. Whether you're organizing a Mardi Gras parade, a jazz festival, a corporate conference, or a wedding in the French Quarter, this app has everything you need to plan and manage your event seamlessly.
 
