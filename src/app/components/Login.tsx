@@ -10,8 +10,9 @@ export default function Login() {
     return (
 
         <>
-            <form onSubmit={handleSubmit} m-3>
+            <form className='float-right relative bg-white'  onSubmit={handleSubmit} m-3>
                 <input
+                    className=''
                     p-1 text-slate
                     text-4xl
                     type="email"
@@ -21,6 +22,7 @@ export default function Login() {
                     }
                     required />
                 <input
+                    className='relative bg-white'
                     p-1 text-slate
                     type="password"
                     placeholder='password'
@@ -30,7 +32,7 @@ export default function Login() {
                     }
                     required
                 />
-                <button type='submit'>Login</button>
+                <button type='submit' className=''>Login</button>
             </form>
         </>
     );

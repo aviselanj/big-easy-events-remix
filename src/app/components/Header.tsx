@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react';
 import { useState } from 'react';
+import Login from './Login';
 export default function Header() {
     const [username, setUsername] = useState("test user");
     return (
@@ -32,14 +33,19 @@ export default function Header() {
                                     </div>
 
                                     <a className="navbar-brand text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href={"/"}>Home</a>
-                                    <a className="navbar-brand text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="#">Personal Plan</a>
+                                    <a className="navbar-brand text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="/about">About</a>
                                     <a className="navbar-brand text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="#">Calendar</a>
                                     <a className="navbar-brand text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="https://www.xplorit.com/new-orleans">Virtual Tour</a>
+                                    
                                 </div>
-
+                                
                             </div>
                         </div>
-
+                        <div className="ml-auto flex items-center">
+                            <div className="hidden lg:flex lg:flex-1 lg:items-center lg:justify-end lg:space-x-6">
+                                <Login />
+                            </div>
+                        </div>
                     </div>
 
 

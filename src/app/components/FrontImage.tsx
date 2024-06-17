@@ -3,10 +3,10 @@ import React from 'react';
 export default function FrontImage() {
     return (
         <>
-            <div className="overflow-y-scroll text-white bg-scroll bg-stone-950 opacity-75 w-3/4 leading-8 min-w-80  text-left hover:capitalize rounded-lg">
+            <div className="text-black  bg-scroll opacity-75 w-fit leading-8 min-w-80  text-left hover:capitalize rounded-lg">
                 <div className='pl-14 content-around place-content-between min-w-48 md:h-full md:w-auto pr-24'>
                     <header>
-                        <h1 className='text-4xl p-10 line-clamp-none hover:text-6xl text-slate'>Welcome To Big Easy Events!</h1>
+                        <h1 className='text-4xl p-10 line-clamp-none hover:text-6xl text-center text-slate'>Welcome To Big Easy Events!</h1>
                     </header>
                     <section className='p-1 text-slate'>
                         <h2 className='text-2xl hover:text-3xl'>Our Story</h2>
