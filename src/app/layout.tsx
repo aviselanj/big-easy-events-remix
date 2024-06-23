@@ -23,7 +23,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const [eventData, setEventData] = useState([]);
-  const [username, setUser] = useState("test-user");
+  //const [username, setUser] = useState("test-user");
   return (
    
    <html lang="en">

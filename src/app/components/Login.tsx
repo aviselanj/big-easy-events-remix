@@ -1,5 +1,6 @@
 import React from 'react';
 import { useState } from 'react';
+import Button from './Button';
 export default function Login() {
     const [email, setEmail] = useState("")
     const [password, setPassword] = useState("")
@@ -32,7 +33,9 @@ export default function Login() {
                     }
                     required
                 />
-                <button type='submit' className=''>Login</button>
+                <Button onClick={function (): void {
+                    throw new Error('Function not implemented.');
+                } } />
             </form>
         </>
     );
