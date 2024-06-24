@@ -34,7 +34,7 @@ export default function Header() {
 
                                     <a className="navbar-brand text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href={"/"}>Home</a>
                                     <a className="navbar-brand text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="/about">About</a>
-                                    <a className="navbar-brand text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="#">Calendar</a>
+                                    <a className="navbar-brand text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="/calendar">Calendar</a>
                                     <a className="navbar-brand text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium" href="https://www.xplorit.com/new-orleans">Virtual Tour</a>
                                     
                                 </div>
