@@ -10,7 +10,7 @@ import React from 'react';
                 <section>
                     <h2>Who We Are</h2>
                     <p>
-                        Welcome to Big Easy Events, where we bring your visions to life with unparalleled creativity and dedication. Founded in [Year], our mission has been to create unforgettable experiences that captivate and inspire. Whether it's a corporate event, a wedding, or a private celebration, we strive to make every occasion a memorable one.
+                        Welcome to Big Easy Events, where we bring your visions to life with unparalleled creativity and dedication. Founded in [Year] our mission has been to create unforgettable experiences that captivate and inspire. Whether it is a corporate event, a wedding, or a private celebration, we strive to make every occasion a memorable one.
                     </p>
                 </section>
 
